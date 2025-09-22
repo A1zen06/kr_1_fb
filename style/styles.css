@@ -290,3 +290,48 @@ body {
     margin-top: 50px;
     /* Отступ сверху */
 }
+
+.tag_news1 {
+    background-image: url(../images/stip.png);
+    background-size: 1000px 189px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.08);
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    margin: 20px 125px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    text-shadow:
+        -2px -2px 0 black,
+        -2px -2px 0 black,
+        -2px -2px 0 black;
+    transition: all 0.3s ease;
+}
+.tag_news2 {
+    background-image: url(../images/pok.png);
+    background-size: 1000px 189px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.08);
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    margin: 20px 125px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    text-shadow:
+        -2px -2px 0 black,
+        -2px -2px 0 black,
+        -2px -2px 0 black;
+    transition: all 0.3s ease;
+}
+.tag_news3 {
+    background-image: url(../images/html.png);
+    background-size: 1000px 189px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.08);
+    color: rgb(0, 0, 0);
+    padding: 20px 25px;
+    margin: 20px 125px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
