@@ -307,6 +307,7 @@ body {
         -2px -2px 0 black;
     transition: all 0.3s ease;
 }
+
 .tag_news2 {
     background-image: url(../images/pok.png);
     background-size: 1000px 189px;
@@ -323,6 +324,7 @@ body {
         -2px -2px 0 black;
     transition: all 0.3s ease;
 }
+
 .tag_news3 {
     background-image: url(../images/html.png);
     background-size: 1000px 189px;
@@ -334,4 +336,23 @@ body {
     font-weight: 600;
     font-size: 14px;
     transition: all 0.3s ease;
+}
+
+.tag_news1:hover {
+    transform: translateY(-5px);
+    /* Поднимется вверх */
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+    /* Тень усилится */
+}
+.tag_news2:hover {
+    transform: translateY(-5px);
+    /* Поднимется вверх */
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+    /* Тень усилится */
+}
+.tag_news3:hover {
+    transform: translateY(-5px);
+    /* Поднимется вверх */
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+    /* Тень усилится */
 }
