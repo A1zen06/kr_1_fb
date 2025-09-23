@@ -227,10 +227,11 @@ body {
 
 .tag_news1:hover, .tag_news2:hover{
     transform: translateY(-5px);
-    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 15px 60px #08000075;
 }
 .tag_news3:hover {
     transform: translateY(-5px);
+    box-shadow: 0px 15px 60px #08000075;
 }
 
 .zag {
@@ -249,6 +250,7 @@ body {
     text-align: center;
     padding: 35px;
     transition: all 0.3s ease;
+    margin-top: 10px;
 }
 
 .contact-button {
@@ -309,6 +311,7 @@ body {
     
     .contacts {
         margin: 0 50px;
+        margin-top: 5px;
     }
     
     .contact-button {
@@ -387,6 +390,7 @@ body {
         margin: 0 10px;
         padding: 20px 15px;
         font-size: 16px;
+        margin-top: 4px;
     }
     
     .contact-button {
@@ -438,5 +442,6 @@ body {
         margin: 0 5px;
         padding: 15px 10px;
         font-size: 14px;
+        margin-top: 3px;
     }
 }
