@@ -400,3 +400,24 @@ body {
 .contacts:hover{
     transform: translateX(+10px);
 }
+.tag_iteam{
+text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    max-width: 220px;
+    transition: all 0.3 ease;
+}
+.tag_iteam:hover{
+    transform: translateY(-5px)
+}
+.products-container {
+    display: flex;
+    justify-content: center; /* выравнивание по центру */
+    gap: 20px; /* расстояние между карточками */
+    flex-wrap: wrap; /* перенос на новую строку при нехватке места */
+    padding: 20px;
+}
+.jc1{
+    color: #ff0000;
+}
