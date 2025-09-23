@@ -289,10 +289,11 @@ body {
     /* Белый цвет текста */
     text-align: center;
     /* Выравнивание по центру */
-    padding: 30px;
+    padding: 10px;
     /* Внутренние отступы */
     margin-top: 50px;
     /* Отступ сверху */
+    border-bottom: 0;
 }
 
 .tag_news1 {
@@ -359,4 +360,43 @@ body {
     /* Поднимется вверх */
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
     /* Тень усилится */
+}
+.zag{
+    text-align: center;
+    font-size: 28px;
+    /* Размер шрифта заголовка секции */
+    color: #242f3a;
+    /* Темно-синий цвет текста */
+    text-align: center;
+    /* Выравнивание по центру */
+    margin-bottom: 30px;
+    /* Отступ снизу */
+    font-weight: 300;
+    /* Легкое начертание шрифта */
+    margin-left: -20px;
+}
+.contacts{
+    border-radius: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #95aaca;
+    font-size: 20px;
+    text-align: center;
+    padding: 35px;
+    transition: all 0.3s ease;
+}
+.contact-button{
+    background: linear-gradient(135deg, #b434ff 0%, #03ffff 100%);
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 517px;
+    margin-top: 20px;
+    padding: 15px 10px;
+    transition: all 0.3s ease;
+}
+.contact-button:hover{
+    transform: translateY(-5px);
+}
+.contacts:hover{
+    transform: translateX(+10px);
 }
