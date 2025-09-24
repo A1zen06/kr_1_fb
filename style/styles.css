@@ -253,20 +253,6 @@ body {
     margin-top: 10px;
 }
 
-.contact-button {
-    background: linear-gradient(135deg, #b434ff 0%, #03ffff 100%);
-    border-radius: 20px;
-    font-size: 15px;
-    margin: 20px;
-    padding: 15px 30px;
-    transition: all 0.3s ease;
-    max-width: 200px;
-}
-
-.contact-button:hover {
-    transform: translateY(-5px);
-}
-
 .contacts:hover {
     transform: translateX(10px);
 }
@@ -444,10 +430,32 @@ body {
         margin-top: 3px;
     }
 }
-.contact_but{
+.contact_buttons{
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-button {
+    background: linear-gradient(135deg, #8c91b1 0%, #0a0a0a 100%);
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 5px 5px;
+    transition: all 0.3s ease;
+    max-width: 50px;
+}
+.contact-button:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+.git-button {
+    transition: all 0.3s ease;
+    width: 32px; 
+    height: 32px;
+}
+
+.git-button:hover {
+    transform: translateY(-10px) scale(1.1); /* Поднимаем вверх на 15px */
 }
