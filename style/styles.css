@@ -11,7 +11,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background: white;
-    min-height: 100vh;
+    min-height: 90vh;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,6 +43,7 @@ body {
 
 .nav-item {
     margin: 0;
+    display: block;
 }
 
 .nav-link {
@@ -188,8 +189,7 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    border-bottom: 0;
-    margin-bottom: -40px;
+    margin: auto;
 }
 
 .tag_news1, .tag_news2{
@@ -433,23 +433,11 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.contact-button {
-    background: linear-gradient(135deg, #8c91b1 0%, #0a0a0a 100%);
-    border-radius: 25px;
-    font-size: 15px;
-    padding: 5px 5px;
+.buttons {
     transition: all 0.3s ease;
-    max-width: 50px;
-}
-.contact-button:hover{
-    transform: translateY(-10px) scale(1.1);
-}
-.git-button {
-    transition: all 0.3s ease;
-    width: 32px; 
-    height: 32px;
 }
 
-.git-button:hover {
-    transform: translateY(-10px) scale(1.1); /* Поднимаем вверх на 15px */
+.buttons:hover {
+    transform: translateY(-10px) scale(1.1);
+    rotate: 10deg;
 }
