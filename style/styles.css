@@ -194,45 +194,20 @@ body {
     max-width: 1200px;
 }
 
-.tag_news1, .tag_news2{
+.tag_news1, .tag_news2, .tag_news3{
     background-size: 1000px 189px;
-    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.08);
-    color: rgb(255, 255, 255);
-    padding: 20px 25px;
-    margin: 20px 125px;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 14px;
-    text-shadow: -2px -2px 0 black, -2px -2px 0 black, -2px -2px 0 black;
-    transition: all 0.3s ease;
-}
-
-.tag_news1 {
-    background-image: url(../images/stip.png);
-}
-
-.tag_news2 {
-    background-image: url(../images/pok.png);
-}
-
-.tag_news3 {
-    background-image: url(../images/html.png);
     color: rgb(0, 0, 0);
-    background-size: 1000px 183px;
     padding: 20px 25px;
     margin: 20px 125px;
     border-radius: 25px;
+    border-left: 7px solid #5b24a3;
     font-weight: 600;
     font-size: 14px;
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 2px;
     transition: all 0.3s ease;
 }
 
-.tag_news1:hover, .tag_news2:hover{
-    transform: translateY(-5px);
-    box-shadow: 0px 15px 60px #08000075;
-}
-.tag_news3:hover {
+.tag_news1:hover, .tag_news2:hover, .tag_news3:hover{
     transform: translateY(-5px);
     box-shadow: 0px 15px 60px #08000075;
 }
@@ -366,9 +341,6 @@ body {
     .tag_news1, .tag_news2, .tag_news3 {
         margin: 15px 10px;
         padding: 15px 20px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
         text-align: left;
     }
     
@@ -398,9 +370,6 @@ body {
 
 /* Очень маленькие телефоны (ширина меньше 480px) */
 @media (max-width: 479px) {
-    .tag_news1,.tag_news2{
-        background-size: 400px 100px ;
-    }
     .header {
         font-size: 20px;
         padding: 15px 10px;
@@ -448,3 +417,23 @@ body {
     transform: translateY(-10px) scale(1.1);
     rotate: 10deg;
 }
+.news-container{
+    background-color: #cad7e9;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: left;
+    width: 1440px;
+    margin: auto;
+    height: 750px;
+}
+.news-body{
+    background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
+    margin: 0;
+    padding: 50px;
+    min-height: 700px;
+}
+.news-text{
+    margin: 15px;
+    font-size: 30px;
+}
+
