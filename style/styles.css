@@ -306,6 +306,9 @@ body {
 
 /* Телефоны (ширина меньше 768px) */
 @media (max-width: 767px) {
+    .tag_news1, .tag_news2{
+        background-size: 700px 100px ;
+    }
     .header {
         padding: 20px 15px;
         font-size: 22px;
@@ -396,6 +399,9 @@ body {
 
 /* Очень маленькие телефоны (ширина меньше 480px) */
 @media (max-width: 479px) {
+    .tag_news1,.tag_news2{
+        background-size: 450px 100px ;
+    }
     .header {
         font-size: 20px;
         padding: 15px 10px;
