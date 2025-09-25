@@ -218,7 +218,7 @@ body {
 .tag_news3 {
     background-image: url(../images/html.png);
     color: rgb(0, 0, 0);
-    background-size: 1000px 189px;
+    background-size: 1000px 183px;
     padding: 20px 25px;
     margin: 20px 125px;
     border-radius: 25px;
@@ -306,9 +306,6 @@ body {
 
 /* Телефоны (ширина меньше 768px) */
 @media (max-width: 767px) {
-    .tag_news1, .tag_news2{
-        background-size: auto ;
-    }
     .header {
         padding: 20px 15px;
         font-size: 22px;
@@ -370,6 +367,8 @@ body {
         margin: 15px 10px;
         padding: 15px 20px;
         background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
         text-align: center;
     }
     
