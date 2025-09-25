@@ -301,8 +301,8 @@ body {
     
     .contact-button {
         margin-left: auto;
-        margin-right: auto;
     }
+
 }
 
 /* Телефоны (ширина меньше 768px) */
@@ -379,8 +379,6 @@ body {
     }
     
     .contact-button {
-        margin: 15px auto;
-        padding: 12px 25px;
         font-size: 14px;
         max-width: 180px;
     }
