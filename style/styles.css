@@ -194,7 +194,9 @@ body {
     max-width: 1200px;
 }
 
-.tag_news1, .tag_news2, .tag_news3{
+.tag_news1,
+.tag_news2,
+.tag_news3 {
     background-size: 1000px 189px;
     color: rgb(0, 0, 0);
     padding: 20px 25px;
@@ -207,7 +209,9 @@ body {
     transition: all 0.3s ease;
 }
 
-.tag_news1:hover, .tag_news2:hover, .tag_news3:hover{
+.tag_news1:hover,
+.tag_news2:hover,
+.tag_news3:hover {
     transform: translateY(-5px);
     box-shadow: 0px 15px 60px #08000075;
 }
@@ -267,11 +271,13 @@ body {
     .content {
         padding: 30px 20px;
     }
-    
-    .tag_news1, .tag_news2, .tag_news3 {
+
+    .tag_news1,
+    .tag_news2,
+    .tag_news3 {
         margin: 20px 50px;
     }
-    
+
     .contacts {
         margin: 0 50px;
         margin-top: 5px;
@@ -285,134 +291,141 @@ body {
         padding: 20px 15px;
         font-size: 22px;
     }
-    
+
     .nav-list {
         flex-direction: column;
         gap: 10px;
         padding: 0 15px;
     }
-    
+
     .nav-link {
         display: block;
         text-align: center;
         padding: 15px;
     }
-    
+
     .content {
         padding: 20px 15px;
     }
-    
+
     .profile-title {
         font-size: 26px;
     }
-    
+
     .profile-photo {
         width: 180px;
         height: 230px;
     }
-    
+
     .profile-name {
         font-size: 20px;
     }
-    
+
     .profile-group {
         font-size: 16px;
     }
-    
+
     .about-me {
         padding: 20px;
         font-size: 15px;
     }
-    
-    .section-title, .zag {
+
+    .section-title,
+    .zag {
         font-size: 24px;
     }
-    
+
     .experience-card {
         padding: 20px;
         margin: 15px 0;
     }
-    
+
     .experience-title {
         font-size: 18px;
     }
-    .news-container{
-    min-height: auto;
-    width: auto;
-    }
+
     /* Исправляем проблемные блоки */
-    .tag_news1, .tag_news2, .tag_news3 {
+    .tag_news1,
+    .tag_news2,
+    .tag_news3 {
         margin: 15px 10px;
         padding: 15px 20px;
         text-align: left;
     }
-    
+
     .contacts {
         margin: 0 10px;
         padding: 20px 15px;
         font-size: 16px;
         margin-top: 4px;
     }
-    
+
     .contact-button {
         font-size: 14px;
         max-width: 180px;
     }
-    
+
     .products-container {
         padding: 10px;
         gap: 15px;
     }
-    
+
     .tag_iteam {
         max-width: 100%;
         width: 100%;
         margin: 10px 0;
     }
-    
+
 }
+
 /* Очень маленькие телефоны (ширина меньше 480px) */
 @media (max-width: 479px) {
     .header {
         font-size: 20px;
         padding: 15px 10px;
     }
-    
+
     .profile-photo {
         width: 150px;
         height: 200px;
     }
-    
+
     .profile-title {
         font-size: 22px;
     }
-    
-    .section-title, .zag {
+
+    .section-title,
+    .zag {
         font-size: 20px;
     }
-    
-    .tag_news1, .tag_news2, .tag_news3 {
+
+    .tag_news1,
+    .tag_news2,
+    .tag_news3 {
         margin: 10px 5px;
         padding: 12px 15px;
         font-size: 12px;
     }
-    
+
     .contacts {
         margin: 0 5px;
         padding: 15px 10px;
         font-size: 14px;
         margin-top: 3px;
     }
-    .news-body{
-    height: auto;
-    width: auto;
+
+    .news-body {
+        height: auto;
+        width: auto;
     }
-    .news-container{
+
+    .news-container {
         width: auto;
         height: auto;
     }
 }
-.contact_buttons{
+
+.contact_buttons {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -420,6 +433,7 @@ body {
     align-items: center;
     margin-top: 15px;
 }
+
 .buttons {
     transition: all 0.3s ease;
 }
@@ -428,7 +442,8 @@ body {
     transform: translateY(-10px) scale(1.1);
     rotate: 10deg;
 }
-.news-container{
+
+.news-container {
     background-color: #cad7e9;
     border-radius: 25px;
     padding: 30px;
@@ -437,15 +452,26 @@ body {
     margin: auto;
     height: 750px;
 }
-.news-body{
+
+.news-body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
     padding: 50px;
     min-height: auto;
     width: auto;
 }
-.news-text{
+
+.news-text {
     margin: 15px;
     font-size: 30px;
 }
 
+.come-back {
+    transition: all 0.3s ease;
+    font-size: 30px;
+    margin-left: 10px;  
+}
+
+.come-back:hover {
+    transform: translateX(-15px) ;
+}
