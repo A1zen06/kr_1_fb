@@ -266,7 +266,7 @@ body {
 
 /* ===== АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ ===== */
 
-/* Планшеты (ширина меньше 1024px) */
+/* Планшеты (ширина меньше 1081px) */
 @media (max-width: 1080px) {
     .content {
         padding: 30px 20px;
@@ -366,6 +366,7 @@ body {
     }
     .news-text {
     margin-top: 7px;
+    margin: 5px;
     font-size: 15px;
 }
 
