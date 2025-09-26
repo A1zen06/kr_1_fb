@@ -282,7 +282,8 @@ body {
         margin: 0 50px;
         margin-top: 5px;
     }
-        .header {
+
+    .header {
         padding: 20px 15px;
         font-size: 22px;
     }
@@ -361,63 +362,62 @@ body {
         width: 100%;
         margin: 10px 0;
     }
+
     .news-container {
-        padding: 10px;
+        padding: 20px;
     }
+
     .news-text {
-    margin-top: 7px;
-    margin: 5px;
-    font-size: 8px;
-}
+        margin: 10px;
+        font-size: 20px;
+    }
 
-}
+    .contact_buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 15px;
+    }
 
-.contact_buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 15px;
-}
+    .buttons {
+        transition: all 0.3s ease;
+    }
 
-.buttons {
-    transition: all 0.3s ease;
-}
+    .buttons:hover {
+        transform: translateY(-10px) scale(1.1);
+        rotate: 10deg;
+    }
 
-.buttons:hover {
-    transform: translateY(-10px) scale(1.1);
-    rotate: 10deg;
-}
+    .news-container {
+        background-color: #cad7e9;
+        border-radius: 25px;
+        padding: 30px;
+        text-align: left;
+        width: auto;
+        margin: auto;
+        height: auto;
+    }
 
-.news-container {
-    background-color: #cad7e9;
-    border-radius: 25px;
-    padding: 30px;
-    text-align: left;
-    width: auto;
-    margin: auto;
-    height: auto;
-}
+    .news-body {
+        background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
+        margin: 0;
+        padding: 50px;
+    }
 
-.news-body {
-    background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
-    margin: 0;
-    padding: 50px;
-}
+    .news-text {
+        margin: 15px;
+        font-size: 30px;
+    }
 
-.news-text {
-    margin: 15px;
-    font-size: 30px;
-}
+    .come-back {
+        transition: all 0.3s ease;
+        font-size: 30px;
+        margin: 10px;
+        display: inline-block;
+    }
 
-.come-back {
-    transition: all 0.3s ease;
-    font-size: 30px;
-    margin: 10px;  
-    display: inline-block;
-}
-
-.come-back:hover {
-    transform: translateX(-15px) ;
-}
+    .come-back:hover {
+        transform: translateX(-15px);
+    }
