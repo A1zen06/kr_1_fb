@@ -267,7 +267,7 @@ body {
 /* ===== АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ ===== */
 
 /* Планшеты (ширина меньше 1024px) */
-@media (max-width: 1023px) {
+@media (max-width: 1080px) {
     .content {
         padding: 30px 20px;
     }
@@ -282,12 +282,7 @@ body {
         margin: 0 50px;
         margin-top: 5px;
     }
-}
-
-
-/* Телефоны (ширина меньше 768px) */
-@media (max-width: 767px) {
-    .header {
+        .header {
         padding: 20px 15px;
         font-size: 22px;
     }
@@ -344,15 +339,6 @@ body {
         font-size: 18px;
     }
 
-    /* Исправляем проблемные блоки */
-    .tag_news1,
-    .tag_news2,
-    .tag_news3 {
-        margin: 15px 10px;
-        padding: 15px 20px;
-        text-align: left;
-    }
-
     .contacts {
         margin: 0 10px;
         padding: 20px 15px;
@@ -376,53 +362,6 @@ body {
         margin: 10px 0;
     }
 
-}
-
-/* Очень маленькие телефоны (ширина меньше 480px) */
-@media (max-width: 479px) {
-    .header {
-        font-size: 20px;
-        padding: 15px 10px;
-    }
-
-    .profile-photo {
-        width: 150px;
-        height: 200px;
-    }
-
-    .profile-title {
-        font-size: 22px;
-    }
-
-    .section-title,
-    .zag {
-        font-size: 20px;
-    }
-
-    .tag_news1,
-    .tag_news2,
-    .tag_news3 {
-        margin: 10px 5px;
-        padding: 12px 15px;
-        font-size: 12px;
-    }
-
-    .contacts {
-        margin: 0 5px;
-        padding: 15px 10px;
-        font-size: 14px;
-        margin-top: 3px;
-    }
-
-    .news-body {
-        height: auto;
-        width: auto;
-    }
-
-    .news-container {
-        width: auto;
-        height: auto;
-    }
 }
 
 .contact_buttons {
