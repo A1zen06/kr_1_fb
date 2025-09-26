@@ -294,7 +294,8 @@ body {
 .news-body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
-    min-height: 94.5%;
+    padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .news-text {
