@@ -373,13 +373,19 @@ body {
         width: 100%;
         margin: 10px 0;
     }
-    .news-body{
-    height: auto;
-    width: auto;
+    .news-container {
+        padding: 20px;
+        margin: 10px auto;
+        width: 95%;
     }
-    .news-container{
-        width: auto;
-        height: auto;
+    
+    .news-text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .news-body {
+        padding: 10px;
     }
 }
 /* Очень маленькие телефоны (ширина меньше 480px) */
