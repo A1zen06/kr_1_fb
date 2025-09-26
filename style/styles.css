@@ -287,15 +287,12 @@ body {
     border-radius: 25px;
     padding: 30px;
     text-align: left;
-    width: auto;
-    margin: auto;
-    height: auto;
+    margin: 50px;
 }
 
 .news-body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
-    padding: 50px;
 }
 
 .news-text {
@@ -311,7 +308,8 @@ body {
 }
 
 .come-back:hover {
-    transform: translateX(-15px) ;
+    transform: translateX(-15px);
+
 }
 /* ===== АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ ===== */
 
@@ -410,11 +408,12 @@ body {
         width: 100%;
         margin: 10px 0;
     }
-        .news-container {
-        padding: 20px;
+    .news-container {
+    padding: 10px;
+    margin: 0px;
     }
     .news-text {
         margin: 10px;
-        font-size: 20px; 
+        font-size: 10px; 
     }
 }
