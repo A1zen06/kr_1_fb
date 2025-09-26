@@ -337,8 +337,8 @@ body {
         font-size: 18px;
     }
     .news-container{
-    min-width: auto;
-    height: auto;
+    min-height: auto;
+    width: auto;
     }
     /* Исправляем проблемные блоки */
     .tag_news1, .tag_news2, .tag_news3 {
