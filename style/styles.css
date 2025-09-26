@@ -361,6 +361,9 @@ body {
         width: 100%;
         margin: 10px 0;
     }
+    .news-container {
+        padding: 10px;
+    }
 
 }
 
@@ -387,16 +390,16 @@ body {
     border-radius: 25px;
     padding: 30px;
     text-align: left;
-    width: 1440px;
+    width: auto;
     margin: auto;
-    height: 750px;
+    height: auto;
 }
 
 .news-body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
     padding: 50px;
-    min-height: 10vh;
+    min
 }
 
 .news-text {
