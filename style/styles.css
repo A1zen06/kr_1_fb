@@ -276,7 +276,14 @@ body {
         margin: 0 50px;
         margin-top: 5px;
     }
-    
+    .news-body{
+    height: auto;
+    width: auto;
+    }
+    .news-container{
+        width: auto;
+        height: auto;
+    }
 }
 
 /* Телефоны (ширина меньше 768px) */
@@ -366,8 +373,15 @@ body {
         width: 100%;
         margin: 10px 0;
     }
+    .news-body{
+    height: auto;
+    width: auto;
+    }
+    .news-container{
+        width: auto;
+        height: auto;
+    }
 }
-
 /* Очень маленькие телефоны (ширина меньше 480px) */
 @media (max-width: 479px) {
     .header {
@@ -399,6 +413,14 @@ body {
         padding: 15px 10px;
         font-size: 14px;
         margin-top: 3px;
+    }
+    .news-body{
+    height: auto;
+    width: auto;
+    }
+    .news-container{
+        width: auto;
+        height: auto;
     }
 }
 .contact_buttons{
