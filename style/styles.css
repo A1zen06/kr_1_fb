@@ -457,8 +457,7 @@ body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
     padding: 50px;
-    min-height: auto;
-    width: auto;
+    min-height: 10vh;
 }
 
 .news-text {
@@ -469,7 +468,8 @@ body {
 .come-back {
     transition: all 0.3s ease;
     font-size: 30px;
-    margin-left: 10px;  
+    margin: 10px;  
+    display: inline-block;
 }
 
 .come-back:hover {
