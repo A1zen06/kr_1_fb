@@ -276,16 +276,6 @@ body {
         margin: 0 50px;
         margin-top: 5px;
     }
-    
-    .news-text {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    
-    .news-body {
-        padding: 10px;
-        min-width: 50vh ;
-    }
 }
 
 
@@ -346,7 +336,10 @@ body {
     .experience-title {
         font-size: 18px;
     }
-    
+    .news-container{
+    min-width: auto;
+    height: auto;
+    }
     /* Исправляем проблемные блоки */
     .tag_news1, .tag_news2, .tag_news3 {
         margin: 15px 10px;
@@ -376,21 +369,7 @@ body {
         width: 100%;
         margin: 10px 0;
     }
-    .news-container {
-        padding: 20px;
-        margin: 10px auto;
-        width: 95%;
-    }
     
-    .news-text {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    
-    .news-body {
-        padding: 10px;
-        min-width: 50vh ;
-    }
 }
 /* Очень маленькие телефоны (ширина меньше 480px) */
 @media (max-width: 479px) {
@@ -462,7 +441,8 @@ body {
     background: linear-gradient(135deg, #bea7a7fd 0%, #ff6ecf 100%);
     margin: 0;
     padding: 50px;
-    min-height: 700px;
+    min-height: auto;
+    width: auto;
 }
 .news-text{
     margin: 15px;
