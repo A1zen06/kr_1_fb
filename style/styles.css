@@ -410,8 +410,9 @@ body {
     }
     .news-container {
     padding: 10px;
-    margin: 5px;
+    margin: 15px;
     margin-top: 10px;
+    margin-bottom: 0px;
     }
     .news-text {
         margin: 10px;
