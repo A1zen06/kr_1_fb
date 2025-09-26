@@ -415,6 +415,9 @@ body {
     }
     .news-text {
         margin: 10px;
-        font-size: 10px; 
+        font-size: 14px; 
+    }
+    .come-back {
+    font-size: 17px;  
     }
 }
