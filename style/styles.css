@@ -364,6 +364,10 @@ body {
     .news-container {
         padding: 10px;
     }
+    .news-text {
+    margin-top: 7px;
+    font-size: 15px;
+}
 
 }
 
