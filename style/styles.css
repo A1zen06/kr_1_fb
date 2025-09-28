@@ -2,13 +2,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 /* ===== КОНТЕЙНЕР СТРАНИЦЫ ===== */
 .page-container {
-    max-width: 1200px;
+    max-width: 63%;
     margin: 0 auto;
     background: white;
     min-height: 100vh;
@@ -184,55 +184,53 @@ body {
 }
 
 /* ===== ФУТЕР ===== */
-.footer {
+footer {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: white;
     text-align: center;
     margin: auto;
     padding-bottom: 10px;
     padding-top: 10px;
-    max-width: 1200px;
+    max-width: 63%;
 }
 
-.tag_news1,
-.tag_news2,
-.tag_news3 {
+.tag_news {
     background-size: 1000px 189px;
     color: rgb(0, 0, 0);
     padding: 20px 25px;
     margin: 20px 125px;
     border-radius: 25px;
+    border: 1px solid #dbdbdb;
     border-left: 7px solid #5b24a3;
     font-weight: 600;
     font-size: 14px;
-    box-shadow: 0px 0px 2px;
     transition: all 0.3s ease;
 }
 
-.tag_news1:hover,
-.tag_news2:hover,
-.tag_news3:hover {
+.tag_news:hover{
     transform: translateY(-5px);
     box-shadow: 0px 15px 60px #08000075;
 }
-
+.news-no-margin{
+    margin-bottom: 0px;
+}
 .zag {
     text-align: center;
     font-size: 28px;
     color: #242f3a;
     margin-bottom: 30px;
-    font-weight: 300;
+    font-weight: 800;
 }
 
 .contacts {
     border-radius: 15px;
-    margin: 0 150px;
-    background-color: #afc4e2;
-    font-size: 20px;
+    margin: 20px 150px 0px ;
+    background-color: #bccde4;
+    font-size: 35px;
     text-align: center;
-    padding: 35px;
+    padding: 35px 0px 100px;
     transition: all 0.3s ease;
-    margin-top: 10px;
+    padding-top: 100px;
 }
 
 .contacts:hover {
@@ -242,7 +240,7 @@ body {
 .tag_iteam {
     text-align: center;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ebe4e4;
     border-radius: 15px;
     max-width: 220px;
     transition: all 0.3s ease;
@@ -296,6 +294,7 @@ body {
     margin: 0;
     padding-bottom: 20px;
     overflow: hidden;
+    background-size: cover;
 }
 
 .news-text {
